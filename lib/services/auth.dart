@@ -40,10 +40,14 @@ class AuthService {
     return reportRef.setData({
       'uid': user.uid,
       'lastActivity': DateTime.now()
-    });
+    }, merge: true);
 
   }
 
+Future<void> signOut() {
+  return _auth.signOut();
+}
 
 
 }
+
