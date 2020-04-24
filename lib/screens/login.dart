@@ -33,7 +33,7 @@ class _LoginScreenState extends State<LoginScreen> {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             FlutterLogo(size: 150,),
-            Text('Login To Learn', style: Theme.of(context).textTheme.headline,
+            Text('Login To Learn', style: Theme.of(context).textTheme.headline5,
             textAlign: TextAlign.center,
             ),
             Text('Where Earning is Learning'),
